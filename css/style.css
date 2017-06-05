@@ -1,0 +1,25 @@
+.jumbotron,.panel{
+width: 100%;
+}
+#contactos{
+	margin-top: 2%;
+}
+.navbar-default {
+	background-color: #053D3F;
+}
+
+.navbar-default{
+	color: #fff;
+}
+.btn-primary{
+	background-color: #1BABB8;
+}
+.panel-primary{
+	border-color: #BEBB53;
+}
+.panel-primary > .panel-heading{
+	background-color: #BEBB53;
+	border-color: #BEBB53;
+}
+
+/**/

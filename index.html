@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contactos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <h1>Contactos</h1>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Contador de Contactos y Botón Agregar Contactos-->
+    <div class="text-center">
+      <p>Número de Contactos <span id="contador" class="badge"></span></p>
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#agregarContacto">
+        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        Agregar Contacto
+      </button>
+    </div>
+    <!-- Lista de Contactos -->
+    <section id="contactos" class="container">
+      
+    </section>
+
+    <!-- MODAL AGREGAR CONTACTO -->
+    <section class="modal fade" id="agregarContacto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <form action="" class="form-group">
+              <label>NOMBRE</label>
+              <input type="text" id="nombre" name="nombre" class="form-control">
+              <label>APELLIDO</label>
+              <input type="text" id="apellido" name="apellido" class="form-control">
+              <label>NÚMERO</label>
+              <input type="numero" id="numero" name="numero" class="form-control">
+            </form>
+          </div>
+          <div class="modal-footer">
+            <input type="submit" id="guardar" name="guardar" value="GUARDAR" class="btn btn-primary">
+            <input type="reset" id="cancelar" name="cancelar" value="CANCELAR" class="btn btn-default">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TERMINA MODAL -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
